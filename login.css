@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100%;
+    height: 65px;
+}
+
+#line {
+    width: 50px;
+    height: 50px;
+    margin-left: 20px;
+    padding-top: 12px;
+    float: left;
+}
+
+#line1 {
+    width: 60%;
+    height: 2px;
+    background-color: black;
+    margin-top: 10px;
+    margin-bottom: 7px;
+}
+
+#line2 {
+    width: 70%;
+    height: 2px;
+    background-color: rgb(45, 14, 221);
+    margin-bottom: 7px;
+}
+
+#line3 {
+    width: 80%;
+    height: 2px;
+    background-color: black;
+    margin-bottom: 7px;
+}
+
+#all_sports {
+    width: 50px;
+    height: 40px;
+    float: left;
+    margin-top: 13px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+#btn {
+    width: 180px;
+    height: 45px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 10.5px;
+    outline: none;
+    border: none;
+}
+
+#btn>button>img {
+    width: 100%;
+    height: 100%;
+}
+
+#input {
+    width: 600px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: rgb(228, 225, 225);
+    border-radius: 2px;
+    margin-left: 20px;
+    margin-top: 12.5px;
+    float: left;
+}
+
+#blue-line {
+    width: 3px;
+    height: 40px;
+    background-color: blue;
+    float: left;
+    margin-top: 12.5px;
+    border-radius: 15px;
+}
+
+#options {
+    width: 350px;
+    height: 40px;
+    float: left;
+    margin-left: 40px;
+    display: grid;
+    grid-template: 'div div div div div';
+    gap: 15px;
+    margin-top: 10px;
+}
+
+#options>div {
+    display: grid;
+    grid-template-columns: 'div div';
+}
+
+#options>div>div {
+    height: 10px;
+}
+
+#options>div>div>img {
+    height: 20px;
+    margin-left: 20px;
+}
+
+#options>div>div>p {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+    margin-top: 10px;
+}
+
+#options>div>div>button {
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    background-color: white;
+}
+
+#strip {
+    width: 100%;
+    height: 40px;
+    background-color: rgb(36, 33, 33);
+}
+
+#loginForm {
+    width: 400px;
+    height: 300px;
+    border-radius: 25px;
+    margin-top: 50px;
+    margin-left: 500px;
+    box-shadow: -3px -3px 5px #ffffff, 3px 3px 15px #000000;
+    padding-top: 50px;
+}
+
+#loginForm>input {
+    width: 70%;
+    height: 40px;
+    margin-left: 15%;
+    background: white;
+    border: 1px solid gray;
+    padding-left: 10px;
+    border-radius: 7px;
+    margin-top: 20px;
+}
+
+#signin-btn {
+    width: 150px;
+    height: 50px;
+    background: rgb(146, 146, 233);
+    margin-top: 30px;
+    margin-left: 30%;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+
+#imageslide>img {
+    width: 100%;
+    height: 100%;
+}
+
+#btns {
+    width: 5%;
+    height: 15px;
+    margin: auto;
+}
+
+#sports-category {
+    margin-left: 20%;
+    margin-top: 20px;
+    width: 60%;
+    height: 50px;
+    display: grid;
+    grid-template: 'div div div div';
+    gap: 20px;
+}
+
+#sports-category>div {
+    border-radius: 10px;
+}
+
+#sports-category>div>button {
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    letter-spacing: 1px;
+}
+
+#discover {
+    margin-top: 30px;
+    margin-left: 1%;
+    width: 98%;
+    height: 300px;
+    display: grid;
+    grid-template: 'div div div div';
+    gap: 15px;
+    margin-bottom: 200px;
+}
+
+#discover>div {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+#cricket {
+    background-image: url('https://cdn.wisden.com/wp-content/uploads/2019/03/77-Newbury-full-set.jpg');
+}
+
+#football {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMOUXc7CovsDK3A-nUgsKxvRgWPEJAhHMAzQ&usqp=CAU');
+}
+
+#hockey {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcppDBQsPTDjW90UybFLIrY2PgprL11MQ8IA&usqp=CAU');
+}
+
+#boxing {
+    background-image: url('https://cdn.shopify.com/s/files/1/0289/4066/4963/products/boxing1_jpg_2000x.jpg?v=1587256531');
+}
+
+#discover>div>button {
+    width: 60%;
+    height: 50px;
+    margin-left: 20%;
+    margin-top: 220px;
+    font-size: 20px;
+    color: #ffffff;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    opacity: 0.9;
+    box-shadow: -1px -1px 3px #ffffff, 1px 1px 3px #ffffff;
+}
